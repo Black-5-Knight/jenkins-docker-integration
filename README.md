@@ -65,7 +65,9 @@ This section outlines the steps to configure Jenkins and set up role-based secur
     - Assign the `can-view` role to the `viewer` user by selecting the appropriate checkboxes.
 
 Now the `viewer` user has read-only access to Jenkins, allowing them to view builds and pipeline status without modifying any configurations.
+
 ![Assign Role to Viewer User](Screenshots/assign-role-image.png)
+
 ## Run Pipeline
 
 To run the Jenkins pipeline, follow these steps:
