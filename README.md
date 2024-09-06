@@ -15,8 +15,7 @@
     - [Clone a Repository](#clone-a-repository)
     - [Build Dockerfile](#build-dockerfile)
     - [Push to DockerHub](#push-to-dockerhub)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 This project demonstrates how to configure Jenkins, create a viewer user with restricted access, and run a pipeline that clones a Git repository, builds a Docker image, and pushes it to DockerHub. This lab provides hands-on experience with Jenkins' integration with Docker, Git, and access control features.
@@ -116,8 +115,3 @@ To run the Jenkins pipeline, follow these steps:
 
 Ensure you have configured your DockerHub credentials in Jenkins by navigating to `Manage Jenkins` > `Manage Credentials`.
 
-## Contributing
-Contributions are welcome! Please submit a pull request or open an issue if you would like to contribute to this project.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
