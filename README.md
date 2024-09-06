@@ -109,7 +109,7 @@ To run the Jenkins pipeline, follow these steps:
     stage('Push to DockerHub') {
         steps {
             script {
-                docker.withRegistry('https://registry.hub.docker.com', 'dockerhub-credentials') {
+                docker.withRegistry('https://index.docker.io/v1/', 'dockerhub-credentials') {
                     dockerImage.push('latest')
                 }
             }
