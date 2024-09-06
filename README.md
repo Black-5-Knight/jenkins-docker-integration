@@ -41,6 +41,7 @@ This section outlines the steps to configure Jenkins and set up role-based secur
 1. Go to `Manage Jenkins` > `Manage Plugins`.
 2. Under the `Available` tab, search for **Role-based Authorization Strategy**.
 3. Select the plugin and click `Install without restart`.
+![Role-based Authorization Strategy Plugin](Screenshots/role-based-authorization-plugin-image.png)
 
 ### 2. Configure Role-Based Security
 
@@ -54,6 +55,7 @@ This section outlines the steps to configure Jenkins and set up role-based secur
 2. In the **Manage Roles** tab:
     - Create a new role called `can-view`.
     - Assign this role the **Overall Read** permission.
+![Role-based Security Configuration](Screenshots/role-based-security-image.png)
 
 ### 4. Create and Assign the Viewer User
 
@@ -63,7 +65,7 @@ This section outlines the steps to configure Jenkins and set up role-based secur
     - Assign the `can-view` role to the `viewer` user by selecting the appropriate checkboxes.
 
 Now the `viewer` user has read-only access to Jenkins, allowing them to view builds and pipeline status without modifying any configurations.
-
+![Assign Role to Viewer User](Screenshots/assign-role-image.png)
 ## Run Pipeline
 
 To run the Jenkins pipeline, follow these steps:
@@ -114,4 +116,4 @@ To run the Jenkins pipeline, follow these steps:
     ```
 
 Ensure you have configured your DockerHub credentials in Jenkins by navigating to `Manage Jenkins` > `Manage Credentials`.
-
+![DockerHub Image in Repository](Screenshots/dockerhub-repository-image.png)
