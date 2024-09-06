@@ -1,6 +1,6 @@
 # Jenkins Lab 1
 
-![Jenkins Logo](https://www.jenkins.io/images/logos/jenkins/jenkins.png)
+<img src="https://www.jenkins.io/images/logos/jenkins/jenkins.png" alt="Jenkins Logo" width="300" />
 
 ## Table of Contents
 - [Introduction](#introduction)
