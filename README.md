@@ -96,7 +96,7 @@ To run the Jenkins pipeline, follow these steps:
     stage('Build Docker Image') {
         steps {
             script {
-                dockerImage = docker.build('your-docker-image-name')
+                dockerImage = docker.build('your-docker-hub-user-name/image-name')
             }
         }
     }
