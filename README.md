@@ -40,7 +40,7 @@ This section outlines the steps to configure Jenkins and set up role-based secur
 
 1. Go to `Manage Jenkins` > `Manage Plugins`.
 2. Under the `Available` tab, search for **Role-based Authorization Strategy**.
-3. Select the plugin and click `Install without restart`.
+3. Select the plugin and click `Install`.
 ![Role-based Authorization Strategy Plugin](Screenshots/role-based-authorization-plugin-image.png)
 
 ### 2. Configure Role-Based Security
